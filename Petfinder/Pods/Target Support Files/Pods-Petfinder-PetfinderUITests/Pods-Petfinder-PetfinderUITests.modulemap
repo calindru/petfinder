@@ -1,0 +1,6 @@
+framework module Pods_Petfinder_PetfinderUITests {
+  umbrella header "Pods-Petfinder-PetfinderUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
