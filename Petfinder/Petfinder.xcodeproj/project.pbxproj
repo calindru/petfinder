@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		6A4950E05B4B26B1CF49A9F0 /* Pods_Petfinder_PetfinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DFB1234A2E5E195836C603B /* Pods_Petfinder_PetfinderUITests.framework */; };
 		CBBB40038B916C236E08F49A /* Pods_Petfinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E71FE6878AF123FAB023D35 /* Pods_Petfinder.framework */; };
+		FA8EBD5E28F42AD100A223E3 /* KeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EBD5D28F42AD100A223E3 /* KeyboardListener.swift */; };
+		FA8EBD6028F49BE200A223E3 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8EBD5F28F49BE200A223E3 /* UIView+Frame.swift */; };
 		FAB2721128EEDE4A00056F99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2721028EEDE4A00056F99 /* AppDelegate.swift */; };
 		FAB2721328EEDE4A00056F99 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2721228EEDE4A00056F99 /* SceneDelegate.swift */; };
-		FAB2721528EEDE4A00056F99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2721428EEDE4A00056F99 /* ViewController.swift */; };
+		FAB2721528EEDE4A00056F99 /* PetSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2721428EEDE4A00056F99 /* PetSearchViewController.swift */; };
 		FAB2721828EEDE4A00056F99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB2721628EEDE4A00056F99 /* Main.storyboard */; };
 		FAB2721B28EEDE4A00056F99 /* Petfinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAB2721928EEDE4A00056F99 /* Petfinder.xcdatamodeld */; };
 		FAB2721D28EEDE4B00056F99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB2721C28EEDE4B00056F99 /* Assets.xcassets */; };
@@ -19,6 +21,7 @@
 		FAB2722B28EEDE4C00056F99 /* PetfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2722A28EEDE4C00056F99 /* PetfinderTests.swift */; };
 		FAB2723528EEDE4C00056F99 /* PetfinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2723428EEDE4C00056F99 /* PetfinderUITests.swift */; };
 		FAB2723728EEDE4C00056F99 /* PetfinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB2723628EEDE4C00056F99 /* PetfinderUITestsLaunchTests.swift */; };
+		FAFB451928F41EF8004B1637 /* AuthenticationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFB451828F41EF8004B1637 /* AuthenticationToken.swift */; };
 		FF3BA7EFA8C786227E94BB10 /* Pods_PetfinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2830D783FC1C91C3E6810BB /* Pods_PetfinderTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +52,12 @@
 		B48B414907035F233870478E /* Pods-Petfinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petfinder.debug.xcconfig"; path = "Target Support Files/Pods-Petfinder/Pods-Petfinder.debug.xcconfig"; sourceTree = "<group>"; };
 		C2830D783FC1C91C3E6810BB /* Pods_PetfinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetfinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA4CA891A909F603AFE8A43E /* Pods-Petfinder-PetfinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Petfinder-PetfinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Petfinder-PetfinderUITests/Pods-Petfinder-PetfinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA8EBD5D28F42AD100A223E3 /* KeyboardListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardListener.swift; sourceTree = "<group>"; };
+		FA8EBD5F28F49BE200A223E3 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		FAB2720D28EEDE4A00056F99 /* Petfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Petfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2721028EEDE4A00056F99 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAB2721228EEDE4A00056F99 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAB2721428EEDE4A00056F99 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB2721428EEDE4A00056F99 /* PetSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSearchViewController.swift; sourceTree = "<group>"; };
 		FAB2721728EEDE4A00056F99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAB2721A28EEDE4A00056F99 /* Petfinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Petfinder.xcdatamodel; sourceTree = "<group>"; };
 		FAB2721C28EEDE4B00056F99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +68,7 @@
 		FAB2723028EEDE4C00056F99 /* PetfinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetfinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB2723428EEDE4C00056F99 /* PetfinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetfinderUITests.swift; sourceTree = "<group>"; };
 		FAB2723628EEDE4C00056F99 /* PetfinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetfinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAFB451828F41EF8004B1637 /* AuthenticationToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +119,6 @@
 				32C5E43A4C5A35E30FDAFE7F /* Pods-PetfinderTests.debug.xcconfig */,
 				6870E3B68FB0E00BA6FC45C6 /* Pods-PetfinderTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -142,12 +147,10 @@
 		FAB2720F28EEDE4A00056F99 /* Petfinder */ = {
 			isa = PBXGroup;
 			children = (
+				FAFB450D28EF5902004B1637 /* User Interface */,
 				FAB2721028EEDE4A00056F99 /* AppDelegate.swift */,
 				FAB2721228EEDE4A00056F99 /* SceneDelegate.swift */,
-				FAB2721428EEDE4A00056F99 /* ViewController.swift */,
-				FAB2721628EEDE4A00056F99 /* Main.storyboard */,
 				FAB2721C28EEDE4B00056F99 /* Assets.xcassets */,
-				FAB2721E28EEDE4B00056F99 /* LaunchScreen.storyboard */,
 				FAB2722128EEDE4B00056F99 /* Info.plist */,
 				FAB2721928EEDE4A00056F99 /* Petfinder.xcdatamodeld */,
 			);
@@ -169,6 +172,59 @@
 				FAB2723628EEDE4C00056F99 /* PetfinderUITestsLaunchTests.swift */,
 			);
 			path = PetfinderUITests;
+			sourceTree = "<group>";
+		};
+		FAFB450D28EF5902004B1637 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB451128EF5C4E004B1637 /* Library */,
+				FAFB451028EF5987004B1637 /* Networking */,
+				FAFB450F28EF5971004B1637 /* Management */,
+				FAFB450E28EF5943004B1637 /* Pet Search */,
+				FAB2721E28EEDE4B00056F99 /* LaunchScreen.storyboard */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		FAFB450E28EF5943004B1637 /* Pet Search */ = {
+			isa = PBXGroup;
+			children = (
+				FAB2721428EEDE4A00056F99 /* PetSearchViewController.swift */,
+				FAB2721628EEDE4A00056F99 /* Main.storyboard */,
+			);
+			path = "Pet Search";
+			sourceTree = "<group>";
+		};
+		FAFB450F28EF5971004B1637 /* Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Management;
+			sourceTree = "<group>";
+		};
+		FAFB451028EF5987004B1637 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB451728F41EE0004B1637 /* Authentication */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAFB451128EF5C4E004B1637 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				FA8EBD5D28F42AD100A223E3 /* KeyboardListener.swift */,
+				FA8EBD5F28F49BE200A223E3 /* UIView+Frame.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		FAFB451728F41EE0004B1637 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FAFB451828F41EF8004B1637 /* AuthenticationToken.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,10 +430,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB2721528EEDE4A00056F99 /* ViewController.swift in Sources */,
+				FAB2721528EEDE4A00056F99 /* PetSearchViewController.swift in Sources */,
 				FAB2721128EEDE4A00056F99 /* AppDelegate.swift in Sources */,
 				FAB2721328EEDE4A00056F99 /* SceneDelegate.swift in Sources */,
 				FAB2721B28EEDE4A00056F99 /* Petfinder.xcdatamodeld in Sources */,
+				FA8EBD6028F49BE200A223E3 /* UIView+Frame.swift in Sources */,
+				FA8EBD5E28F42AD100A223E3 /* KeyboardListener.swift in Sources */,
+				FAFB451928F41EF8004B1637 /* AuthenticationToken.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
